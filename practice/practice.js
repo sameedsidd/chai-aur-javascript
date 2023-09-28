@@ -61,11 +61,11 @@ function
 
 // +++++++++++++++ conversion and operations +++++++++++++ //
 
-let score = 123
+// let score = 123
 // console.log(typeof score);
 // console.log(typeof (score));
 
-let valueInNumber = Number(score)
+// let valueInNumber = Number(score)
 // console.log(valueInNumber);
 // console.log(typeof valueInNumber);
 
@@ -73,22 +73,22 @@ let valueInNumber = Number(score)
 // "33abc" => NaN
 // true => 1; false => 0
 
-let isLoggedIn = 1
-let booleanLoggedIn = Boolean(isLoggedIn)
+// let isLoggedIn = 1
+// let booleanLoggedIn = Boolean(isLoggedIn)
 // console.log(booleanLoggedIn);
 
 // 1 =>> true; 2 =>> false 
 // "" =>> false
 // "sameed" =>> true
 
-let someNumber = 33
-let stringNumber = String(someNumber)
+// let someNumber = 33
+// let stringNumber = String(someNumber)
 // console.log(stringNumber);
 // console.log(typeof stringNumber);
 
 // ***************** operations ******************* //
-let value = 3
-let negValue = -value
+// let value = 3
+// let negValue = -value
 // console.log(negValue);
 
 // console.log(2+2);
@@ -98,8 +98,8 @@ let negValue = -value
 // console.log(2%2);
 // console.log(2**3);
 
-let str1 = "sameed"
-let str2 = " siddiqui"
+// let str1 = "sameed"
+// let str2 = " siddiqui"
 // console.log((str1+str2).toUpperCase());
 // console.log((str1+str2).length);
 
@@ -108,8 +108,8 @@ let str2 = " siddiqui"
 // console.log("1" + 2 + 2);
 // console.log(1 + 2 + "2");
 
-let num1 = num2 = num3 = 2
-num1 = num2 = num3 = 2 + 3
+// let num1 = num2 = num3 = 2
+// num1 = num2 = num3 = 2 + 3
 
 // let gameCounter = 100
 // let changeGameCount = gameCounter++
@@ -119,11 +119,11 @@ num1 = num2 = num3 = 2 + 3
 // console.log(againGameChangeCount);
 
 
-let gameCounter = 100
-let changeGameCount = ++gameCounter
+// let gameCounter = 100
+// let changeGameCount = ++gameCounter
 // let againGameChangeCount = ++changeGameCount
-console.log(gameCounter);
-console.log(changeGameCount);
+// console.log(gameCounter);
+// console.log(changeGameCount);
 // console.log(againGameChangeCount);
 
 
