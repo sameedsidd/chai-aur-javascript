@@ -4,7 +4,7 @@ const repoCount = 5
 // console.log(myName + repoCount + " Value"); // we never use this style of string again
 
 
-// console.log(`Hello my name ${myName} and I have ${repoCount} repositiory`);
+// console.log(`Hello my name ${myName} and I have ${repoCount} repository`);
 
 const gameName = new String('sameed@gmail.com')
 // console.log(gameName[3]);
@@ -31,27 +31,6 @@ const url = "https://hitesh.com/hitesh%20choudhary"
 console.log(url.replace('%20', '-'));
 console.log(url.includes('https'));
 console.log(gameName.split('-'));
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
