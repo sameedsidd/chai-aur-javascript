@@ -10,7 +10,7 @@
 
 // console.log(null > 0);
 // console.log(null == 0); 
-// console.log(null >= 0); // in comparision null treat as 0
+// console.log(null >= 0); // in comparison null treat as 0
 
 
 // console.log(undefined == 0);
