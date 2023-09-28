@@ -165,11 +165,33 @@ function
 // console.log(2 === "2");
 
 
+// +++++++++++++++ strings and methods +++++++++++++ //
+const myName = "Sameed Siddiqui"
+const myRepoCount = 5
+//  console.log(`This is ${myName} and I have ${myRepoCount} repository`);
 
+const gameName = new String("a@gmail.com")
+// console.log(gameName[3]);
 
+// string methods 
+// console.log(gameName.length);
+// console.log(gameName.toUpperCase());
+// console.log(gameName.toLowerCase());
+// console.log(gameName.charAt(2));
+// console.log(gameName.indexOf('m'));
+// console.log(gameName.substring(0, 4));
 
+const newString = gameName.substring(0, 3)
+// console.log(newString);
 
+const anotherString = gameName.slice(0, 1)
+// console.log(anotherString);
 
+const url = "https://www.google.com"
+// console.log(url.replace('.', '-'));
+
+// console.log(url.includes('www'));
+// console.log(newString.split('@'));
 
 
 
