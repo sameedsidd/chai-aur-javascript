@@ -197,7 +197,7 @@ const url = "https://www.google.com"
 
 // +++++++++++++++ number and maths +++++++++++++ //
 
-const score = 100
+// const score = 100
 // console.log(score);
 
 const balance = new Number(100)
@@ -231,6 +231,58 @@ let max = 20
 // console.log(Math.floor((Math.random() * (max - min)) + 1) + min);
 
 
+// +++++++++++++++ primitive and non-primitive data types +++++++++++++ //
+
+// types =>> number, null, bigInt, boolean, string, symbol, undefined (nn bb ss u)
+
+const score = 100
+const scoreValue = 100
+const isLoggedIn = true
+const outsideTemp = null
+let userEmail;
+
+const id = Symbol('123')
+const anotherID = Symbol('123')
+console.log(id == anotherID);
+
+const bigNumber = 333323434231234543n
+console.log(typeof bigNumber);
+
+
+// reference data type
+// array, object, function
+
+const heros = ["Iron Man", "Hulk", "Thor"]
+const info = {
+    myName: 'Sameed',
+    age: 22,
+    city: 'karachi'
+}
+
+const myFunction = function() {
+    console.log("Hello World");
+}
+
+// console.log(heros[2]);
+// console.log(typeof heros);
+// console.log(typeof info);
+
+let myYoutubeChannel = "CoderzHub"
+let anotherName = "Blah blah"
+anotherName = "Yoo yoo"
+
+
+let userOne = {
+    id: 22,
+    email: "a@gmail.com"
+}
+
+
+let userTwo = userOne
+userTwo.email = "e@gmail.com"
+
+console.log(userOne);
+console.log(userTwo);
 
 
 
