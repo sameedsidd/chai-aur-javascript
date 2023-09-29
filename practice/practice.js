@@ -243,10 +243,10 @@ let userEmail;
 
 const id = Symbol('123')
 const anotherID = Symbol('123')
-console.log(id == anotherID);
+// console.log(id == anotherID);
 
 const bigNumber = 333323434231234543n
-console.log(typeof bigNumber);
+// console.log(typeof bigNumber);
 
 
 // reference data type
@@ -259,8 +259,8 @@ const info = {
     city: 'karachi'
 }
 
-const myFunction = function() {
-    console.log("Hello World");
+const myFunction = function () {
+    // console.log("Hello World");
 }
 
 // console.log(heros[2]);
@@ -281,8 +281,50 @@ let userOne = {
 let userTwo = userOne
 userTwo.email = "e@gmail.com"
 
-console.log(userOne);
-console.log(userTwo);
+// console.log(userOne);
+// console.log(userTwo);
+
+
+// ========================== Dates
+let myDate = new Date()
+// console.log(myDate);
+// console.log(myDate.toLocaleDateString());
+// console.log(myDate.toDateString());
+// console.log(myDate.toString());
+// console.log(myDate.toISOString());
+// console.log(myDate.toJSON());
+
+// console.log(typeof myDate); // date =>> treat as object
+
+// let newDate = new Date(2023, 0, 30)
+// let newDate = new Date(2023, 0, 30, 5, 3)
+// let newDate = new Date("2023, 0, 30,")
+// let newDate = new Date("12-01-2023")
+
+// console.log(newDate.toDateString());
+
+let myTimeStamp = Date.now()
+// console.log(myTimeStamp);
+// console.log(newDate.getTime());
+// console.log(Math.floor(Date.now()/1000));
+
+
+// `{$newDate.getDay()} and time`
+
+let newDate = new Date()
+// console.log(newDate.getMonth() + 1);
+// console.log(newDate.getTime());
+// console.log(newDate.getHours());
+// console.log(newDate.getDay());
+// console.log(newDate.getDate());
+
+newDate.toLocaleString('default', {
+    weekday: "long"
+})
+// console.log(newDate);
+
+
+
 
 
 
