@@ -43,17 +43,17 @@ const myFunction = function() {
 // +++++++++++++++++++++++++++++++++++++
 
 // Primitive DataTypes use (Stack Memory)
-// * stact memory gives you copy to change data
+// * stack memory gives you copy to change data
 
 
-// Refernece DataTypes use (Heap Memory)
+// Reference DataTypes use (Heap Memory)
 // * heap memory gives you direct reference
 
-let myYoutubName = "sameedsiddiquidotcom"
-let anotherName = myYoutubName
+let myYoutubeName = "sameedsiddiquidotcom"
+let anotherName = myYoutubeName
 anotherName = "chaiaurcode"
 
-console.log(myYoutubName);
+console.log(myYoutubeName);
 console.log(anotherName);
 
 let userOne = {
