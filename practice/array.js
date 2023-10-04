@@ -76,7 +76,7 @@ const guardian_of_galaxy = ["Rocket", "Nebula", "Gamora"]
 // console.log(marvel_heros.length);
 // console.log(marvel_heros[4][1]);
 
-// ways of merge ywo arrays
+// ways of merge two arrays
 
 const marge_two_arrays = marvel_heros.concat(dc_heros)
 // console.log(marge_two_arrays); 
