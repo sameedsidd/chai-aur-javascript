@@ -1,7 +1,7 @@
 // forEach loop
 const coding = ["java", "js", "python", "ruby"]
 // coding.forEach((item) => {
-//     // console.log(item);
+    // console.log(item);
 // })
 
 // coding.forEach(function (item) {
