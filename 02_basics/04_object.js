@@ -78,7 +78,7 @@ const {courseInstructor: instructor} = course
 
 // {
 //     "name": "A",
-//     "courseName": "JS"
+//     "courseName": "JS",
 //     "price": 333
 // }
 
