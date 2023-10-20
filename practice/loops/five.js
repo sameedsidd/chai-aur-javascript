@@ -1,57 +1,47 @@
-// forEach Loop
+// forEach loop
+const coding = ["java", "javascript", "css", "ruby", "python"]
+// console.log(coding[1.0]);
 
-const coding = ["java", "js", "python", "ruby"]
-// coding.forEach(function (item) {
+// coding.forEach(function (val) {
+//     console.log(val);
+// })
+
+// coding.forEach(function name(item) {(console.log(item))})
+
+// coding.forEach((item)=>{
 //     console.log(item);
 // })
 
-// coding.forEach((item) => {
+// function printMe(item) {
 //     console.log(item);
-// })
+// }
 
-function printMe(item) {
-    // console.log(item);
-}
 // coding.forEach(printMe)
 
-// coding.forEach((item, index, arr) => {
-// console.log(item, index, arr);
+
+// coding.forEach((item, index, array) => {
+//     console.log(item, index, array);
 // })
 
-const myCoding = [
+
+const myCodingLanguage = [
     {
-        languageName: "javascript",
-        languageFile: "js"
+        languageName: "JS",
+        price: "$999"
     },
     {
-        languageName: "C++",
-        languageFile: "cpp"
+        languageName: "Java",
+        price: "$899"
     },
     {
-        languageName: "ruby",
-        languageFile: "rb"
+        languageName: "Ruby",
+        price: "$599"
     }
 ]
-// const [{languageFile: fileName}] = myCoding
-
-// myCoding.forEach((item) => {
-//     // console.log(item.languageName);
-//     // console.table(item.languageFile);
-//     // console.log(fileName);
-// })
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+myCodingLanguage.forEach((item)=>{
+    // console.log(item.languageName);
+    // console.log(item.price);
+    if (item.price >= "$500" && item.languageName == "Ruby") {
+        console.log(item.languageName);
+    }
+})
