@@ -7,7 +7,7 @@ const user = {
     }
 }
 // (this) keyword is actually used to access current context
-// user.welcomeMessage()
+// user.welcomeMessage()const
 // user.username = "Sam"
 // user.welcomeMessage()
 

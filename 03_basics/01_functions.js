@@ -23,6 +23,10 @@ function addTwoNumbers(num1, num2) {
 const result = addTwoNumbers(null)
 // console.log("Result", result);
 
+
+
+
+
 function userName(username = "sam") {
     if (!username) {
         console.log("Please enter user name");
@@ -33,7 +37,7 @@ function userName(username = "sam") {
 const userInfo = userName()
 // console.log(userInfo);
 
-// when you have multiple value to store and see then we ca use this type of function and parameters
+// when you have multiple value to store and see then we can use this type of function and parameters
 
 // rest operators as same like spread operators (...)
 function calculateCartPrice(...number) {

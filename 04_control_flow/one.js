@@ -18,7 +18,7 @@
 
 
 // let balance = 1000
-// // if (balance > 500) console.log("test"), console.log("test2"); // don't do that
+// if (balance > 500) console.log("test"), console.log("test2"); // don't do that
 
 
 // if (balance < 500) {
