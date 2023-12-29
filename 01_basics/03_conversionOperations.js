@@ -14,7 +14,7 @@ let valueInNumber = Number(score)
 
 let isLoggedIn = 0
 let booleanLoggedIn = Boolean(isLoggedIn)
-// console.log(booleanLoggedIn);
+console.log(booleanLoggedIn);
 
 // 1 => true; 2 => false
 // "" => false 
@@ -30,7 +30,7 @@ let stringNumber = String(someNumber)
 
 let value = 3
 let negValue = -value
-// console.log(negValue);
+console.log(negValue);
 
 // console.log(2+2);
 // console.log(2-2);
@@ -46,7 +46,7 @@ let str3 = str1 + str2
 // console.log(str3);
 
 console.log("1" + 2);
-console.log(1 + "2");
+// console.log(1 + "2");
 console.log("1" + 2 + 2);
 console.log(1 + 2 + "2");
 
@@ -55,4 +55,4 @@ num1 = num2 = num3 = 2 + 3
 
 let gameCounter = 100
 ++gameCounter
-console.log(gameCounter);
+// console.log(gameCounter);
