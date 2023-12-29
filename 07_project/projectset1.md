@@ -6,7 +6,7 @@
 
 # Solution Code
 
-## project 1
+## project 1 solution
 
 ```javascript
 const buttons = document.querySelectorAll(".button");
@@ -79,6 +79,66 @@ setInterval(function () {
 
 
 ```
+
+## project 5 solution
+```javascript
+const insert = document.getElementById('insert');
+window.addEventListener('keydown', (e) => {
+  insert.innerHTML = `
+  <div class="color">
+  <table>
+    <tr>
+      <th>Key</th>
+      <th>Keycode</th>
+      <th>Code</th>
+    </tr>
+    <tr>
+      <td>${e.key === ' ' ? "Space" : e.key }</td>
+      <td>${e.keyCode}</td>
+      <td>${e.code}</td>
+    </tr>
+  </table>
+  </div>
+  `;
+});
+```
+
+## project 6 solution
+```javascript
+// generate a random color
+debugger;
+const randomColor = function () {
+  const hex = '0123456789ABCDEF';
+  let color = '#';
+  for (let i = 0; i < 6; i++) {
+    color += hex[Math.floor(Math.random() * 16)];
+  }
+  return color;
+};
+
+// console.log(randomColor());
+let setIntervalId;
+
+const startChangingColor = function () {
+  function changeBgColor() {
+    document.body.style.backgroundColor = randomColor();
+    // console.log(randomColor())
+  }
+
+  if (!setIntervalId) {
+    setIntervalId = setInterval(changeBgColor, 2000);
+  }
+};
+
+const stopChangingColor = function () {
+  clearInterval(setIntervalColor);
+  setIntervalId = null;
+};
+
+document.querySelector('#start').addEventListener('click', startChangingColor);
+document.querySelector('#stop').addEventListener('click', stopChangingColor);
+```
+
 
 
 
