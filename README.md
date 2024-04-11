@@ -1,4 +1,3 @@
 # Javascript
-``` 
-chai aur javascript with Hitesh Choudhary
-```
+
+Javascript course with Hitesh Choudhary
