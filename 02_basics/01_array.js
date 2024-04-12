@@ -1,6 +1,6 @@
 // array
 
-const myArr = [1, 2, 3, 4, 5];
+const myArr = [0, 1, 2, 3, 4, 5];
 const myHeros = ["Superman", "Batman", "Flash"];
 
 const myArr2 = new Array(1, 2, 3, 4, 5);
@@ -9,15 +9,15 @@ const myArr2 = new Array(1, 2, 3, 4, 5);
 
 // array methods
 
-myArr.push(6)
-myArr.push(7)
+// myArr.push(6)
+// myArr.push(7)
 
-myArr.pop()
-myArr.pop()
-myArr.pop()
+// myArr.pop()
+// myArr.pop()
+// myArr.pop()
 
-myArr.unshift(0)
-myArr.shift()
+// myArr.unshift(0)
+// myArr.shift()
 // console.log(myArr);
 
 // console.log(myArr.includes(4));
@@ -30,13 +30,11 @@ myArr.shift()
 // slice, splice
 
 console.log("A:", myArr);
+const my1 = myArr.slice(1, 3);
 
-const my1 = myArr.slice(1, 3)
 console.log(my1);
-
 console.log("B:", myArr);
 
-const my2 = myArr.splice(1, 3)
+const my2 = myArr.splice(1, 3);
 console.log(my2);
-
-console.log("C:", myArr);
+console.log("c:", myArr);
