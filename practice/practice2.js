@@ -157,14 +157,134 @@ if (true) {
 // Immediately Invoked Function (IIFE)
 // IIFE is used for removed pollution in global scope
 
-(function chai() {
-  //named iife
-  console.log(`DB Connected`);
-})();
+// (function chai() {
+//   //named iife
+//   //   console.log(`DB Connected`);
+// })();
 
 // semi colon must be assigned to run two iife functions
 
-((name) => {
-  // unnamed iife
-  console.log(`DB Connected`);
-})();
+// ((name) => {
+//   // unnamed iife
+//   //   console.log(`DB Connected`);
+// })();
+
+// =========================================//
+
+// if
+
+// const isUserLoggedIn = true;
+// const temperature = 40;
+
+// if (temperature === 40) {
+//   console.log("less than 50");
+// } else {
+//   console.log("more than 50");
+// }
+// <, >, <=, >=, ==, ===, !=, !==
+
+// const score = 200;
+// if (score > 200) {
+//   let power = fly;
+//   console.log(`user power: ${power}`);
+// }
+// console.log(`user power: ${power}`);
+
+// const balance = 1000;
+// if (balance < 500) {
+//   console.log("less than 500");
+// } else if (balance < 750) {
+//   console.log("less than 750");
+// } else if (balance < 900) {
+//   console.log("less than 750");
+// } else {
+//   console.log("less than 1200");
+// }
+
+// const userLoggedIn = true;
+// const debitCard = true;
+// const loggedInFromGoogle = false;
+// const loggedInFromEmail = true;
+
+// if (userLoggedIn && debitCard && 2 == 3) {
+//   console.log("Allow to buy");
+// }
+
+// if (loggedInFromGoogle || loggedInFromEmail) {
+//   console.log("User logged in");
+// }
+
+// ===== switch ==== //
+
+const month = 3;
+switch (month) {
+  case 1:
+    console.log("Jan");
+    break;
+  case 2:
+    console.log("Feb");
+    break;
+  case 3:
+    console.log("Mar");
+    break;
+
+  default:
+    console.log("no match");
+    break;
+}
+
+// ========================
+
+const months = "jan";
+switch (months) {
+  case "jan":
+    console.log("matched");
+    break;
+
+  default:
+    console.log("no match");
+    break;
+}
+
+//  ============================
+// const userEmail = [];
+// if (userEmail) {
+//   console.log("got user email");
+// } else {
+//   console.log("don't have user email");
+// }
+
+// falsy values
+// false, 0, -0, BigInt 0n, "", null, undefined, NaN
+
+// truthy values
+// "0", 'false', "", [], {}, function(){}
+
+// if (userEmail.length == 0) {
+//   console.log("Array empty");
+// }
+
+// const emptyObj = {};
+
+// if (Object.keys(emptyObj)) {
+//   console.log("Object is empty");
+// }
+
+// false == 0 : true
+// false == '' : true
+// 0 == '' : true
+
+// Nullish Coalescing Operator (??): null and undefined
+
+let val1 = 5;
+// val1 = 5 ?? 10;
+// val1 = null ?? 10;
+// val1 = undefined ?? 10;
+// val1 = undefined ?? 10 ?? 20
+// console.log(val1);
+
+// Ternary Operator
+// condition ? true : false
+
+const iceTeaPrice = 100
+iceTeaPrice <= 80 ? console.log(less) : console.log("more"); 
